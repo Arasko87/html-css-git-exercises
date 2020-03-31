@@ -22,7 +22,7 @@ You should see the following printed to the terminal, which tells you that you c
 
 Enter the following command into your terminal to create a new branch:
 
-```
+```q
 git checkout -b red_links
 ```
 
