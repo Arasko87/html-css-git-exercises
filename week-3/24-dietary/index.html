@@ -17,11 +17,45 @@
           Let us know if you have any dietary requirements so that we can provide you with the best,
           yummy food.
         </p>
-
-        <form>
-          <!-- Your multiple choice goes here -->
-          <button type="submit">Submit</button>
-        </form>
+        <div style="flex-direction: column;">
+          <form>
+            <!-- Your multiple choice goes here -->
+            <fieldset>
+              <legend>Please select all of your dietary requirements</legend>
+              <div>
+                <label>
+                  <input type="checkbox" name="dietary-requirements" />
+                  Halal
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="checkbox" name="dietary-requirements" />
+                  Kosher
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="checkbox" name="dietary-requirements" />
+                  vegetarian
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="checkbox" name="dietary-requirements" />
+                  Vegan
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="checkbox" name="dietary-requirements" />
+                  Gluten free
+                </label>
+              </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </main>
     </div>
   </body>
