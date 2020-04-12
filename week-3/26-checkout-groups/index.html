@@ -36,11 +36,57 @@
 
         <div class="checkout">
           <h2 class="checkout__title">Checkout</h2>
-          <form method="GET" id="checkout-form" class="checkout__form">
-            <!-- Add the form fields here -->
+          <div style="flex-direction: column;">
+            <form method="GET" id="checkout-form" class="checkout__form">
+              <!-- Add the form fields here -->
+              <fieldset>
+                <legend>Billing Address</legend>
 
-            <button type="submit">Complete Purchase</button>
-          </form>
+                <label> Address Line 1</label>
+                <div>
+                  <input type="text" name="Address" />
+                </div>
+
+                <label>Address Line 2</label>
+                <div>
+                  <input type="text" name="Address" />
+                </div>
+
+                <label>PostCode</label>
+                <div>
+                  <input type="text" name="Address" />
+                </div>
+
+                <label>City</label>
+
+                <div>
+                  <input type="text" name="Address" />
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Delivery Address</legend>
+
+                <label> Address Line 1</label>
+                <div>
+                  <input type="text" name="Delivery-Address" />
+                </div>
+                <label>Address Line 2</label>
+                <div>
+                  <input type="text" name="Delivery-Address" />
+                </div>
+
+                <label>PostCode</label>
+                <div>
+                  <input type="text" name="Delivery-Address" />
+                </div>
+                <label>City</label>
+                <div>
+                  <input type="text" name="Delivery-Address" />
+                </div>
+              </fieldset>
+              <button type="submit">Complete Purchase</button>
+            </form>
+          </div>
         </div>
       </main>
     </div>
