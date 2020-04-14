@@ -156,7 +156,7 @@ Follow the steps below to complete this exercise.
 
 _Hint: Read this [question and answer](https://stackoverflow.com/questions/3845433/css-line-spacing) if you don't know how to increase the space between lines of text._
 
-When you are done, the about text shoudl look like the image below.
+When you are done, the about text should look like the image below.
 
 ![Screenshot of the text formatting solution](/images/29-solution-text.png)
 

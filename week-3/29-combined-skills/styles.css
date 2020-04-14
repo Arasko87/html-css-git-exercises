@@ -1,1 +1,47 @@
 /* Add your own CSS code below */
+#heart-love {
+  color: #c85308;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 50px;
+    text-align: left;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .views {
+    display: flex;
+  }
+
+  .view-list__item {
+    margin-left: 2%;
+  }
+
+  .views__all {
+    margin-left: auto;
+  }
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article {
+  max-width: 50em;
+}
+
+.main-article p {
+  line-height: 30px;
+}
